@@ -1,0 +1,18 @@
+lw r1 r0 0
+lw r2 r0 0
+lw r6 r0 12
+lw r7 r0 16
+addu r6 r6 r0
+addu r7 r7 r0
+bne r1 r2 3
+lw r3 r0 4
+lw r4 r0 8
+addu r6 r6 r0
+addu r7 r7 r0
+addu r6 r6 r0
+addu r7 r7 r0
+bne r3 r4 2
+addu r5 r0 r6
+halt
+addu r5 r0 r7
+halt

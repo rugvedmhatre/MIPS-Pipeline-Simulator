@@ -1,0 +1,6 @@
+lw r1 r0 0
+addu r4 r0 r1
+lw r3 r4 4
+subu r5 r3 r4
+subu r5 r3 r5 
+halt
